@@ -49,6 +49,15 @@ main(int argc, char *argv[] )
 	
 	fclose(q);
 	
+	//
+	q=fopen("dados1.dat", "w");
+	
+	for(i=0; i<n; i++)
+	{
+		r[i] = (a1*x[i] + a0);
+		fprintf(q, "%.2lf\t%.2lf\t%.2lf\n ", x[i], y[i], r[i]);
+	}
+	
 	
 	
 }
