@@ -44,6 +44,11 @@ main(int argc, char *argv[] )
 		printf("%.2lf\t", y[i]);
 	printf("\n");
 	
+	printf("\n\t--------Coeficientes--------\n");
+	printf("A0 = %lf\nA1 = %lf\n", a1, a0);
 	
 	fclose(q);
+	
+	
+	
 }
